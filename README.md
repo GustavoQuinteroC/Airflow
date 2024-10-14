@@ -54,3 +54,7 @@ Manejo de excepciones y registros más detallados en caso de fallos en la API.
 Referencias
 Documentación de Airflow
 API de tasas de cambio - ExchangeRate-API
+
+
+![imagen](https://github.com/user-attachments/assets/a831fc03-f5bc-4013-82b1-2f7f9179983d)
+
