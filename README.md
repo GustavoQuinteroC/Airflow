@@ -17,6 +17,7 @@ Se redondean los valores de las tasas de cambio a dos decimales.
 Los datos transformados también se almacenan en XCom.
 # Carga (Load):
 Los datos transformados son recuperados desde XCom y luego se almacenan en un archivo CSV en una ruta especificada en el servidor.
+![imagen](https://github.com/user-attachments/assets/a831fc03-f5bc-4013-82b1-2f7f9179983d)
 
 # Descripción Detallada
 Dependencias y Configuración del DAG:
@@ -39,10 +40,8 @@ El DAG genera un archivo CSV que contiene las tasas de cambio entre el dólar es
 
 Ejemplo de contenido del CSV generado:
 
-currency	rate
-EUR	0.85
-GBP	0.76
-JPY	110.57
+![imagen](https://github.com/user-attachments/assets/a67722d3-9ecc-423b-9b55-337afedb8d3b)
+
 ...	...
 # Conclusiones
 Este DAG automatiza la descarga diaria de tasas de cambio de una API y las guarda en formato CSV, lo que es útil para tener datos actualizados de monedas para análisis u otros fines. Puede ser utilizado como base para proyectos más complejos de integración de datos o análisis financiero.
@@ -56,5 +55,4 @@ Documentación de Airflow
 API de tasas de cambio - ExchangeRate-API
 
 
-![imagen](https://github.com/user-attachments/assets/a831fc03-f5bc-4013-82b1-2f7f9179983d)
 
